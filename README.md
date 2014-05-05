@@ -1,20 +1,20 @@
 # FanFictionDownloader
 
-TODO: Write a gem description
+This gem is intended to help facilitate downloading fanfiction from various websites.
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'FanFictionDownloader'
+	#Not yet available as a gem.
 
 And then execute:
 
-    $ bundle
+	#Not yet available as a gem.
 
 Or install it yourself as:
 
-    $ gem install FanFictionDownloader
+    #Not yet available as a gem.
 
 ## Usage
 
