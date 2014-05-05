@@ -48,29 +48,6 @@ module FanFictionDownloader
 		
 			for i in page
 				if i.start_with?("<p") && @chapter_titles.length > 0
-					#Gets the images, if there are any, and replaces the urls to point to local files of the same name
-					#i.e. 'www.site.com/image.png' becomes 'image.png'.
-					while i.include?("<img src=\"http")
-						# start = i.index("<img src=\"http") + 10
-						# stop = i.index("\"",start)
-
-						# url = i.slice(start,stop-start)
-						# file = url.slice(url.rindex("/")+1,url.length)
-						# replace = url[0,url.rindex("/")+1]
-
-						# download(url,file)
-
-						# @files[@files.length] = file
-
-						# i.sub! url,file
-						break
-					end
-
-					while i.include? "<img src=\"http"
-						
-
-					end
-
 					#To make the content look pretier in an epub. In my opinion anyway.
 					while i.include?("<center>")
 			  			i.sub! "<center>",%Q[<div style="text-align:center;display:block">]
@@ -78,7 +55,7 @@ module FanFictionDownloader
 					end
 
 				@chapter_contents[@chapter_contents.length] = i
-		 		 end
+		 		end
 			end
 	  	end
 	end

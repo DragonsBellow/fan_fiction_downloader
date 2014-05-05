@@ -1,6 +1,6 @@
 # FanFictionDownloader
 
-This gem is intended to help facilitate downloading fanfiction from various websites.
+This gem is intended to help facilitate downloading fanfiction from various websites. This will be a commandline application that will by default put the files in an EPUB. This project is just now upoaded and not fit for productions, please be patient while I work out the kinks.
 
 ## Installation
 
